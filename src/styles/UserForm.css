@@ -1,0 +1,33 @@
+.user-input input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    font-family: 'Raleway', Raleway Fallback;
+}
+
+.user-input input:focus {
+    outline: none;
+    border-color: #0074D9;
+    font-family: 'Raleway', Raleway Fallback;
+}
+
+.add-user-button {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Raleway', Raleway Fallback;
+}
+
+.add-user-button:hover {
+    background-color: #008CBA;
+    font-family: 'Raleway', Raleway Fallback;
+}
